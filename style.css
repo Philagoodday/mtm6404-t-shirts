@@ -1,0 +1,40 @@
+h1 {
+    text-align: center;
+  }
+  
+.t-shirt-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;}
+  
+.t-shirt-item {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    width: 220px;}
+  
+.t-shirt-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+.out-of-stock {
+    color: #ff0000;
+    font-weight: bold;
+  }
+  
+  .buy-controls {
+    margin-top: 10px;
+  }
+  
+.buy-controls select, .buy-controls button {
+    padding: 8px;
+    margin: 5px;
+    border: 1px solid #ccc;  }
+  
+
+.buy-controls button:hover {
+    background-color: #0056b3;
+  }
